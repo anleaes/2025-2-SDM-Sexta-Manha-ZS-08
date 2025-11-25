@@ -1,7 +1,7 @@
 # 2025-2-SDM-Sexta-Manha-ZS-08, bibliotecaapp
 # (BACK-END)
 
-<a href='https://drive.google.com/drive/u/0/folders/1w9LtnXG0-5F2TAQ2sjCWCvN2RT4I_v6S'>DRIVE - TURORIAIS</a>
+<a href='https://drive.google.com/drive/u/0/folders/1w9LtnXG0-5F2TAQ2sjCWCvN2RT4I_v6S'>DRIVE - TUTORIAIS</a>
 
 <details>
 
