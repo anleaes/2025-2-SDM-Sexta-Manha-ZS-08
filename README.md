@@ -2,8 +2,6 @@
 
 <a href='https://drive.google.com/drive/u/0/folders/1w9LtnXG0-5F2TAQ2sjCWCvN2RT4I_v6S'>DRIVE - TURORIAIS</a>
 
-<img width="1530" height="912" alt="Image" src="https://github.com/user-attachments/assets/4eea1534-1a18-4480-9d09-ca4626a7dad8" />
-
 <details>
 
 <summary><b>TO DO</b></summary>
@@ -13,6 +11,8 @@
 - [ ] Pupular DB 
 
 </details>
+
+<img width="1530" height="912" alt="Image" src="https://github.com/user-attachments/assets/4eea1534-1a18-4480-9d09-ca4626a7dad8" />
 
 <details>
 
