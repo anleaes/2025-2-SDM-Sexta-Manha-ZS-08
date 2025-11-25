@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'django_filters',
 #    'usuario.apps.UsuarioConfig',
     'autor.apps.AutorConfig',
-#    'editora.apps.EditoraConfig',
+    'editora.apps.EditoraConfig',
     'biblioteca.apps.BibliotecaConfig',
 #    'funcionario.apps.FuncionarioConfig',
 #    'emprestimo.apps.EmprestimoConfig',
