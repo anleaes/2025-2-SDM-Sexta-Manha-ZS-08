@@ -7,3 +7,4 @@ from biblioteca.serializer import BibliotecaSerializer
 class BibliotecaViewSet(viewsets.ModelViewSet):
     queryset = Biblioteca.objects.all()
     serializer_class = BibliotecaSerializer  
+    #
