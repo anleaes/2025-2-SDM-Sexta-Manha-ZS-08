@@ -1,3 +1,5 @@
-from django.shortcuts import render
+from editora.models import Editora
+from rest_framework import viewsets
+from editora.serializer import EditoraSerializer
 
-# Create your views here.
+# Após o comentario "# Create your views here." e crie as views "Editora".
