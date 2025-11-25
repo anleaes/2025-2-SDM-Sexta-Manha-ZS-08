@@ -7,8 +7,8 @@
 
 <summary><b>TO DO</b></summary>
 
-- [ ] Relação many-to-many
-- [ ] Branches
+- [x] Relação many-to-many (feito em emprestimo (criado campo exemplares_renovados) )
+- [x] Branches
 - [ ] Pupular DB 
 
 </details>
