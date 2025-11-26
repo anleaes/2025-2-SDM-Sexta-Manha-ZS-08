@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from .models import Emprestimo
+from rest_framework import serializers
 
-# Create your views here.
+class EmprestimoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Emprestimo
+        fields = '__all__'
