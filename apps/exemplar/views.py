@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from .models import Exemplar
+from rest_framework import serializers
 
-# Create your views here.
+class ExemplarSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Exemplar
+        fields = '__all__'
