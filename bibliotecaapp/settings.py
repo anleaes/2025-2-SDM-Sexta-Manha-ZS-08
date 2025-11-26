@@ -42,14 +42,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'django_filters',
-#    'usuario.apps.UsuarioConfig',
+    'usuario.apps.UsuarioConfig',
     'autor.apps.AutorConfig',
     'editora.apps.EditoraConfig',
     'biblioteca.apps.BibliotecaConfig',
-#    'funcionario.apps.FuncionarioConfig',
+    'funcionario.apps.FuncionarioConfig',
     'emprestimo.apps.EmprestimoConfig',
-#    'exemplar.apps.ExemplarConfig',
-#    'livro.apps.LivroConfig',
+    'exemplar.apps.ExemplarConfig',
+    'livro.apps.LivroConfig',
 ]
 
 MIDDLEWARE = [
