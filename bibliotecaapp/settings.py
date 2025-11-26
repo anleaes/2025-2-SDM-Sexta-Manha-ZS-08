@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'editora.apps.EditoraConfig',
     'biblioteca.apps.BibliotecaConfig',
 #    'funcionario.apps.FuncionarioConfig',
-#    'emprestimo.apps.EmprestimoConfig',
+    'emprestimo.apps.EmprestimoConfig',
 #    'exemplar.apps.ExemplarConfig',
 #    'livro.apps.LivroConfig',
 ]
