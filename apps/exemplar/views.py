@@ -1,3 +1,3 @@
-from django.shortcuts import render
+from .models import Exemplar
+from rest_framework import serializers
 
-# Create your views here.
