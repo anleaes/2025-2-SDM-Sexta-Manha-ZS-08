@@ -7,3 +7,6 @@ from funcionario.serializer import FuncionarioSerializer
 
 # Após o comentario "# Create your views here." e crie as views "Funcionario".
 
+class FuncionarioViewSet(viewsets.ModelViewSet):
+    queryset = Funcionario.objects.all()
+    serializer_class = FuncionarioSerializer  
