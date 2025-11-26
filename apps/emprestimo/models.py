@@ -7,6 +7,18 @@ from exemplar.models import Exemplar
 
 # Após o comentario "# Create your models here." e crie a classe "Order" do modelo.
 class Emprestimo(models.Model):
+    data_emprestimo = models.DateField('Data de Empréstimo')
+    data_devolucao_prevista = models.DateField('Data de Devolução Prevista')
+    data_devolucao = models.DateField('Data de Devolução')
+    status = models.CharField('Status', max_length=20)
+    renovacoes_realizadas = models.IntegerField('Renovações Realizadas', default=0)
+    max_renovacoes = models.IntegerField('Máximo de Renovações', default=2)
+    
+    usuario = models.ForeignKey(Usuario, on_delete=models.CASCADE)
+    exemplar = models.ForeignKey(Exemplar, on_delete=models.CASCADE, null=True)
+    funcionario = models.ForeignKey(Funcionario, on_delete=models.CASCADE)
+
+    exemplares_renovados = models.ManyToManyField(Exemplar, related_name='emprestimos_renovados', blank=True)
 
     class Meta:
         verbose_name = 'Emprestimo'
