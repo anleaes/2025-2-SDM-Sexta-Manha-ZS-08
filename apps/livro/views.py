@@ -9,6 +9,4 @@ from django_filters.rest_framework import DjangoFilterBackend
 
 class LivroViewSet(viewsets.ModelViewSet):
     queryset = Livro.objects.all()
-    serializer_class = LivroSerializer
-    filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['title', 'autor', 'editora', 'ano_publicacao'] 
+    serializer_class = LivroSerializer  

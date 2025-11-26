@@ -1,7 +1,12 @@
-from .models import Exemplar
-from rest_framework import serializers
+from django.shortcuts import render
+from exemplar.models import Exemplar
+from rest_framework import viewsets
+from exemplar.serializer import ExemplarSerializer
+# Create your views here.
 
-class ExemplarSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Exemplar
-        fields = '__all__'
+
+# Após o comentario "# Create your views here." e crie as views "Exemplar".
+
+class ExemplarViewSet(viewsets.ModelViewSet):
+    queryset = Exemplar.objects.all()
+    serializer_class = ExemplarSerializer 

@@ -5,6 +5,8 @@ from livro.models import Livro
 
 # Após o comentario "# Create your models here." e crie a classe "Exemplar" do modelo.
 class Exemplar(models.Model):
+# q: como deixar um default value em exemplar?
+#r: 
     codigo_de_barras = models.CharField(max_length=100, unique=True)
     data_aquisicao = models.DateField('Data de Aquisição')
     estado_de_convervacao = models.CharField('Estado de Conservação', max_length=100)

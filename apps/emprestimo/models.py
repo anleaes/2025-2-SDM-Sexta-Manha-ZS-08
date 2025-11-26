@@ -20,6 +20,11 @@ class Emprestimo(models.Model):
 
     exemplares_renovados = models.ManyToManyField(Exemplar, related_name='emprestimos_renovados', blank=True)
 
+    #q: boa ideia, renovados como many to many, mas esse campo nao existem em exemplar.models.py tem problema?
+    #r: Não há problema em ter um ManyToManyField em um modelo que se refere a outro modelo, mesmo que o campo correspondente não exista no outro modelo. O Django gerencia essas relações automaticamente. No entanto, é importante garantir que a lógica do seu aplicativo lide corretamente com essas relações.
+
+    
+
     class Meta:
         verbose_name = 'Emprestimo'
         verbose_name_plural = 'Emprestimos'
